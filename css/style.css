@@ -371,7 +371,7 @@ a {
   border-radius: 5px 5px 5px 0;
 }
 .article__text {
-  width: 80%;
+  width: 85%;
 }
 .article__heading {
   font-family: DM Serif Display;
@@ -382,6 +382,7 @@ a {
   text-align: left;
   color: #292F36;
   margin-bottom: 20px;
+  white-space: pre-line;
 }
 .article__content {
   font-family: Jost;
