@@ -326,11 +326,19 @@
 // .article:not(:nth-child(odd)) .article__btn {
 //     background-color: #FFF;
 // }
-.article:nth-child(2) {
+// .article:nth-child(2) {
+//     background-color: #F4F0EC;
+// }
+
+// .article:nth-child(2) .article__btn {
+//     background-color: #FFF;
+// }
+
+.article:hover {
     background-color: #F4F0EC;
 }
 
-.article:nth-child(2) .article__btn {
+.article:hover .article__btn {
     background-color: #FFF;
 }
 

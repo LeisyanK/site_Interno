@@ -419,11 +419,11 @@ a {
   align-items: center;
 }
 
-.article:nth-child(2) {
+.article:hover {
   background-color: #F4F0EC;
 }
 
-.article:nth-child(2) .article__btn {
+.article:hover .article__btn {
   background-color: #FFF;
 }
 

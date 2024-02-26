@@ -4,14 +4,14 @@ const app = {
             articles: [
                 {
                     id: 1,
-                    img: '../img/blog/article1.jpg',
+                    img: 'img/blog/article1.jpg',
                     tag: 'Kitchen Design',
                     heading: 'Let’s Get Solution For Building Construction Work',
                     date: '26 December,2022'
                 },
                 {
                     id: 2,
-                    img: '/img/blog/article2.jpg',
+                    img: 'img/blog/article2.jpg',
                     tag: 'Living Design',
                     heading: 'Low Cost Latest Invented Interior Designing \nIdeas.',
                     date: '22 December,2022'
