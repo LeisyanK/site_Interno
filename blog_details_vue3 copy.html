@@ -33,11 +33,10 @@
     <section class="blog-banner">
         <img src="img/blog/Banner_blog_details.jpg" alt="баннер">
     </section>
-
     <section class="blog_flex center" id="app">
         <!-- <div id="app"> -->
         <!-- первая страница -->
-        <!-- <div class="blog-details">
+        <div class="blog-details">
             <div class="blog-details__article">
                 <div class="blog-details__text">
                     <h2 class="blog-details__heading">Let’s Get Solution for Building
@@ -105,31 +104,12 @@
                     many variations of passages of Lorem Ipsum available, but the majority have suffered.</p>
                 </div>
             </div>
-        </div> -->
-        <articleblock></articleblock>
-
-        <!-- <div class="blog-details">
-            <div v-for="article in articles" :key="article.id" class="blog-details__article">
-                <div class="blog-details__img">
-                    <img :src="article.img" alt="статья">
-                    <p class="blog-details__tag">{{ article.tag }}</p>
-                </div>
-                <div class="blog-details__text">
-                    <h2 class="blog-details__heading">{{ article.heading }}</h2>
-                </div>
-                <div class="blog-details__block">
-                    <p class="blog-details__date">{{ article.date }}</p>
-                    <div class="blog-details__btn"><i class="fa-solid fa-chevron-right"></i></div>
-                </div>
-            </div>
-        </div> -->
-            
+        </div>
 
 
-        <!-- <div class="sidebar">
+        <div class="sidebar">
             <h3 class="sidebar__heading">Tags</h3>
             <div class="sidebar__tags">
-                <tagblock></tagblock>
                 <!-- <div class="tag" v-for="tag in tags" :key="tag.id" :class="{active:tag.active}" @click="findArticles(tag, $event)">{{ tag.text }}</div> -->
                 
                 <!-- <div class="tag" @click="findArticles($event)">Kitchen</div>
@@ -138,9 +118,9 @@
                 <div class="tag" @click="findArticles($event)">Architecture</div>
                 <div class="tag" @click="findArticles($event)">Kitchen Planning</div>
                 <div class="tag" @click="findArticles($event)">Bedroom</div> -->
-        <!--    </div>
-            
-        </div> -->
+            </div>
+            <article></article>
+        </div>
         
 
 
@@ -203,16 +183,11 @@
 
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script src="js/blog-details.js"></script>
-    <!-- <script src="js/blog-details-tags.js"></script> -->
 
-    <script>
-        
-    </script>
     <script>
         const app = Vue.createApp({
             components: {
-                articleblock,
-                
+                Article,
             }
         }).mount('#app');
 
